@@ -1,8 +1,8 @@
 >КАК УСТАНОВИТЬ МОЙ ПРОЕКТ
 
-1. git clone
+1. git clone https://github.com/nabiev6671/o_store.git
 
-2.
+2. git pull origin master
 
 3. bower i
 
