@@ -1,6 +1,6 @@
 >КАК УСТАНОВИТЬ МОЙ ПРОЕКТ
 
-1. git clone https://github.com/nabiev6671/o_store.git
+1. git clone https://github.com/nabiev6671/itstore.git
 
 2. git pull origin master
 

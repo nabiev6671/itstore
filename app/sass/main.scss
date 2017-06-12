@@ -1,1 +1,75 @@
-@import "_normalize.scss"
+@import "_normalize.scss";
+@import "_clearfix.scss";
+@import "_layout.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+.activity {
+  width: 95%;
+  margin: 0 auto;
+  background-color: rgba(50, 57, 68, 0.72);
+  padding: 2% 0% 2% 0%;
+  margin-top: 4%;
+
+}
+.activity-img_wrap {
+  width: 95%;
+  margin: 0 auto;
+}
+.activity-img {
+  width: 100%;
+}
+.activity-txt {
+  padding: 0% 3% 0% 3%;
+}
+.activity-txt_title {
+  color: #5fabc3;
+  font-size: 3em;
+}
+.activity-txt_article {
+  color: #FFFFFF;
+  font-size: 2em;
+}
+// -------------------------------------------
+.new-users {
+  width: 95%;
+  margin: 0 auto;
+  background-color: rgba(50, 57, 68, 0.25);
+}
+.new-users_wrap {
+  padding: 5% 3% 0% 3%;
+}
+.new-users_title {
+  font-size: 3em;
+  margin: 0;
+}
+.new-users_txt {
+  font-size: 2em;
+  margin: 2% 0% 0% 0%;
+}
+.new-users_contacts-box {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin: 0 auto;
+}
+.new-users_contacts-list_link {
+  font-size: 5em;
+  display: block;
+  text-align: center;
+  margin-top: 4%;
+  color: #0E0E0E;
+  text-decoration: none;
+}
+// -------------------------------------------

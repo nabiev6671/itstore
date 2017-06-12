@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+.main-wrap {
+  width: 100%;
+  background-image: url('./../img/background.jpg');
+  background-attachment: fixed;
+}
+.main-header {
+  width: 100%;
+  @include clearfix;
+}
+.main-header-logo {
+  display: inline-block;
+  float: left;
+  margin: 4% 0% 0% 4%;
+}
+.main-header-logo_title {
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+  color: #5fabc3;
+}
+.main-header-logo_txt {
+  font-size: 1.5em;
+  color: #5fabc3;
+  padding: 0;
+  margin: 3% 0% 0% 0%;
+}
+.main-header-menu_button {
+  float: right;
+  display: block;
+  width: 85px;
+  height: 85px;
+  margin: 4% 4% 0% 0%;
+  background-color: #323944;
+  background-image: url('./../img/main_manu.png');
+  background-size: cover;
+  background-position: 0 0;
+}
