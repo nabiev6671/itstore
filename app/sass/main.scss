@@ -2,18 +2,7 @@
 @import "_clearfix.scss";
 @import "_layout.scss";
 
-
-
-
-
-
-
-
-
-
-
-
-
+// -------------------------------------------
 .activity {
   width: 95%;
   margin: 0 auto;
@@ -40,11 +29,13 @@
   color: #FFFFFF;
   font-size: 2em;
 }
+
 // -------------------------------------------
 .new-users {
   width: 95%;
   margin: 0 auto;
-  background-color: rgba(50, 57, 68, 0.25);
+  background-color: rgba(115, 209, 183, 0.43);
+  padding-bottom: 4%;
 }
 .new-users_wrap {
   padding: 5% 3% 0% 3%;
@@ -69,7 +60,76 @@
   display: block;
   text-align: center;
   margin-top: 4%;
-  color: #0E0E0E;
+  color: #000000;
   text-decoration: none;
 }
+
 // -------------------------------------------
+.partners {
+  width: 95%;
+  margin: 0 auto;
+  background-color: rgba(50, 57, 68, 0.72);
+}
+.partners-wrap {
+  padding: 5% 3% 0% 3%;
+}
+.partners_title {
+  color: #5fabc3;
+  font-size: 3em;
+  margin: 0;
+}
+.partners_set-wrap {
+  padding: 0;
+  margin: 5% auto 0% auto;
+  list-style: none;
+  @include clearfix;
+  width: 100%;
+
+}
+.partners-set_list {
+  display: inline-block;
+  float: left;
+  width: 23%;
+  padding: 1%;
+}
+.partners-set_img {
+  width: 100%;
+}
+.partners-set_txt {
+  font-size: 2.3em;
+  text-align: center;
+  margin-top: 7%;
+  color: #ffffff;
+}
+
+// -------------------------------------------
+.counter {
+  width: 100%;
+}
+.counter_wrap {
+  width: 95%;
+  background-color: rgba(115, 209, 183, 0.43);
+  margin: 0 auto;
+  padding-top: 5%;
+}
+.counter-list_wrap {
+  display: block;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  @include clearfix;
+}
+.counter_list {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+.counter_num {
+  font-size: 3em;
+  color: #42b449;
+  margin: 0;
+}
+.counter_txt {
+  font-size: 2.5em;
+  margin: 5% 0% 0% 0%;
+}

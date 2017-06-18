@@ -3,38 +3,49 @@ body {
 }
 .main-wrap {
   width: 100%;
-  background-image: url('./../img/background.jpg');
-  background-attachment: fixed;
+}
+.fixe-header {
+  width: 100%;
+  height: 10%;
+  background-color: #3c4452;
+  position: fixed;
+  top: -10%;  // Разкомментировать эту строку для того, чтобы фиксированыый заголовок ушел из фидемой части
+}
+.fixe-header_button {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  right: 4%;
+  top: 22%;
+  background-color: #3c4452;
+  background-image: url("./../img/mini_img/mini-menu_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
 }
 .main-header {
   width: 100%;
-  @include clearfix;
+  height: 110px;
+  position: relative;
+}
+.header_button {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #FFFFFF;
+  background-image: url("./../img/mini_img/mini-menu_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
 }
 .main-header-logo {
-  display: inline-block;
-  float: left;
-  margin: 4% 0% 0% 4%;
+  width: 100%;
+  background-color: #FFFFFF;
 }
-.main-header-logo_title {
-  font-size: 3em;
-  padding: 0;
-  margin: 0;
-  color: #5fabc3;
-}
-.main-header-logo_txt {
-  font-size: 1.5em;
-  color: #5fabc3;
-  padding: 0;
-  margin: 3% 0% 0% 0%;
-}
-.main-header-menu_button {
-  float: right;
-  display: block;
-  width: 85px;
-  height: 85px;
-  margin: 4% 4% 0% 0%;
-  background-color: #323944;
-  background-image: url('./../img/main_manu.png');
-  background-size: cover;
-  background-position: 0 0;
+.main-header-logo_canvas {
+  width: 100%;
+  height: 500px;
 }

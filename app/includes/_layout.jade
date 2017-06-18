@@ -13,11 +13,16 @@ html(lang="ru-RU")
 		script(type="application/javascript", src="bower/modernizer/modernizr.js")
 	body
 		div.main-wrap
+			header.fixe-header
+				button(type="button" class="fixe-header_button" id="buttonFixeHeader")
 			header.main-header
+				button(type="button" class="header_button" id="buttonHeader")
 				div.main-header-logo
-					h1.main-header-logo_title
-						|RC-Company
-					p.main-header-logo_txt
-						|Региональная снабжающая компания
-				button(type="button" class="main-header-menu_button" id="mainHeaderMenu")
+					canvas(class="main-header-logo_canvas" id="mainHeaderLogoCanvas")
 			block main-content
+		footer.main-footer
+			div.main-footer_wrap
+	script(type="application/javascript", src="./../bower/jquery/dist/jquery.js")		
+	script(type="application/javascript", src="./js/main_header_logo.js")
+	script(type="application/javascript", src="./js/main.js")
+				
