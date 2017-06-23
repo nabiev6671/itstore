@@ -543,197 +543,59 @@ body {
 }
 
 /* line 6, ../sass/main.scss */
-.activity {
-  width: 95%;
-  margin: 0 auto;
-  background-color: rgba(50, 57, 68, 0.72);
-  padding: 2% 0% 2% 0%;
-  margin-top: 4%;
-}
-
-/* line 14, ../sass/main.scss */
-.activity-img_wrap {
-  width: 95%;
-  margin: 0 auto;
-}
-
-/* line 18, ../sass/main.scss */
-.activity-img {
+.content_wrap {
   width: 100%;
 }
 
-/* line 21, ../sass/main.scss */
-.activity-txt {
-  padding: 0% 3% 0% 3%;
+/* line 11, ../sass/main.scss */
+.main-slider {
+  width: 95%;
+  margin: 380px auto 0 auto;
 }
 
-/* line 24, ../sass/main.scss */
-.activity-txt_title {
-  color: #5fabc3;
-  font-size: 3em;
+/* line 15, ../sass/main.scss */
+.main-slider_view {
+  width: 100%;
+  overflow: hidden;
 }
 
-/* line 28, ../sass/main.scss */
-.activity-txt_article {
-  color: #FFFFFF;
-  font-size: 2em;
+/* line 19, ../sass/main.scss */
+.main-slider_img-box {
+  list-style: none;
+  padding: 0;
+  width: 4675px;
+}
+/* line 2, ../sass/_clearfix.scss */
+.main-slider_img-box:before, .main-slider_img-box:after {
+  content: " ";
+  display: table;
+}
+/* line 7, ../sass/_clearfix.scss */
+.main-slider_img-box:after {
+  clear: both;
+}
+/* line 10, ../sass/_clearfix.scss */
+.main-slider_img-box {
+  *zoom: 1;
+}
+
+/* line 25, ../sass/main.scss */
+.main-slider_img-list {
+  float: left;
+  width: 935px;
+  position: relative;
+}
+
+/* line 30, ../sass/main.scss */
+.main-slider_img {
+  width: 100%;
+  height: 400px;
 }
 
 /* line 34, ../sass/main.scss */
-.new-users {
-  width: 95%;
-  margin: 0 auto;
-  background-color: rgba(115, 209, 183, 0.43);
-  padding-bottom: 4%;
-}
-
-/* line 40, ../sass/main.scss */
-.new-users_wrap {
-  padding: 5% 3% 0% 3%;
-}
-
-/* line 43, ../sass/main.scss */
-.new-users_title {
-  font-size: 3em;
-  margin: 0;
-}
-
-/* line 47, ../sass/main.scss */
-.new-users_txt {
-  font-size: 2em;
-  margin: 2% 0% 0% 0%;
-}
-
-/* line 51, ../sass/main.scss */
-.new-users_contacts-box {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  margin: 0 auto;
-}
-
-/* line 58, ../sass/main.scss */
-.new-users_contacts-list_link {
-  font-size: 5em;
-  display: block;
-  text-align: center;
-  margin-top: 4%;
-  color: #000000;
-  text-decoration: none;
-}
-
-/* line 68, ../sass/main.scss */
-.partners {
-  width: 95%;
-  margin: 0 auto;
-  background-color: rgba(50, 57, 68, 0.72);
-}
-
-/* line 73, ../sass/main.scss */
-.partners-wrap {
-  padding: 5% 3% 0% 3%;
-}
-
-/* line 76, ../sass/main.scss */
-.partners_title {
-  color: #5fabc3;
-  font-size: 3em;
-  margin: 0;
-}
-
-/* line 81, ../sass/main.scss */
-.partners_set-wrap {
-  padding: 0;
-  margin: 5% auto 0% auto;
-  list-style: none;
-  width: 100%;
-}
-/* line 2, ../sass/_clearfix.scss */
-.partners_set-wrap:before, .partners_set-wrap:after {
-  content: " ";
-  display: table;
-}
-/* line 7, ../sass/_clearfix.scss */
-.partners_set-wrap:after {
-  clear: both;
-}
-/* line 10, ../sass/_clearfix.scss */
-.partners_set-wrap {
-  *zoom: 1;
-}
-
-/* line 89, ../sass/main.scss */
-.partners-set_list {
-  display: inline-block;
-  float: left;
-  width: 23%;
-  padding: 1%;
-}
-
-/* line 95, ../sass/main.scss */
-.partners-set_img {
-  width: 100%;
-}
-
-/* line 98, ../sass/main.scss */
-.partners-set_txt {
-  font-size: 2.3em;
-  text-align: center;
-  margin-top: 7%;
-  color: #ffffff;
-}
-
-/* line 106, ../sass/main.scss */
-.counter {
-  width: 100%;
-}
-
-/* line 109, ../sass/main.scss */
-.counter_wrap {
-  width: 95%;
-  background-color: rgba(115, 209, 183, 0.43);
-  margin: 0 auto;
-  padding-top: 5%;
-}
-
-/* line 115, ../sass/main.scss */
-.counter-list_wrap {
-  display: block;
-  margin: 0 auto;
-  list-style: none;
-  padding: 0;
-}
-/* line 2, ../sass/_clearfix.scss */
-.counter-list_wrap:before, .counter-list_wrap:after {
-  content: " ";
-  display: table;
-}
-/* line 7, ../sass/_clearfix.scss */
-.counter-list_wrap:after {
-  clear: both;
-}
-/* line 10, ../sass/_clearfix.scss */
-.counter-list_wrap {
-  *zoom: 1;
-}
-
-/* line 122, ../sass/main.scss */
-.counter_list {
-  float: left;
-  width: 33.33%;
-  text-align: center;
-}
-
-/* line 127, ../sass/main.scss */
-.counter_num {
-  font-size: 3em;
-  color: #42b449;
-  margin: 0;
-}
-
-/* line 132, ../sass/main.scss */
-.counter_txt {
-  font-size: 2.5em;
-  margin: 5% 0% 0% 0%;
+.main-slider_img-text {
+  position: absolute;
+  bottom: 0;
+  color: #FFFFFF;
+  font-size: 1.5em;
 }

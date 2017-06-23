@@ -32,6 +32,7 @@ var mainHeaderLogo = (function () {
 			triangleDraw(trianglePrototype, value.posX, value.posY );
 
 		});
+		logoTxt();
 	};
 
   ///////////////////// Объявление переменных//////////////////
@@ -185,7 +186,16 @@ var mainHeaderLogo = (function () {
 		ctx.restore();
 	};
 
+	// logoTxt - функция, которая рисует текст логотипа на холсте конваса
+	var logoTxt = function () {
+		console.log("Функция logoTxt вызывается");
+		ctx.save();
+		ctx.font = "18px Tahoma";
+		ctx.fillStyle = "#080806";
+		ctx.fillText("RSK-group", 35, 95);
+		ctx.restore();
 
+	};
 
 return {
 			init: init
