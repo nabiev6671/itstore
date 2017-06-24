@@ -31,9 +31,16 @@
   width: 100%;
   height: 400px;
 }
+.main-slider_img-text_wrap {
+}
 .main-slider_img-text {
   position: absolute;
   bottom: 0;
+  margin: 0;
+  padding: 3% 3%;
+  background-color: rgba(0, 0, 0, 0.67);
+  font-weight: bold;
   color: #FFFFFF;
   font-size: 1.5em;
+  font-family: sans-serif;
 }

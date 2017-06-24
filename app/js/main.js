@@ -8,7 +8,9 @@
 $(document).ready(function () {
   var doc = $(document);
   if (doc.find("canvas").is('#mainHeaderLogoCanvas')) {
-    console.log(" main.js - Элемент CANVAS найден");
     mainHeaderLogo.init();
+  }
+  if (doc.find("div").is('#mainSlider')) {
+    mainSlider.init();
   }
 });

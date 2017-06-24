@@ -188,7 +188,6 @@ var mainHeaderLogo = (function () {
 
 	// logoTxt - функция, которая рисует текст логотипа на холсте конваса
 	var logoTxt = function () {
-		console.log("Функция logoTxt вызывается");
 		ctx.save();
 		ctx.font = "18px Tahoma";
 		ctx.fillStyle = "#080806";
