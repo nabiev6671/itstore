@@ -9,8 +9,12 @@ $(document).ready(function () {
   var doc = $(document);
   if (doc.find("canvas").is('#mainHeaderLogoCanvas')) {
     mainHeaderLogo.init();
+  } else {
+    console.log('Элемент с индикатором mainHeaderLogoCanvas не найден, запускать модуль mainHeaderLogo не буду');
   }
   if (doc.find("div").is('#mainSlider')) {
     mainSlider.init();
+  } else {
+    console.log('Элемент с индикатором #mainSlider не найден, не буду запускать модуль mainSlider');
   }
 });
