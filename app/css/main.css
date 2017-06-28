@@ -551,16 +551,46 @@ body {
 .main-slider {
   width: 95%;
   margin: 380px auto 0 auto;
+  position: relative;
 }
 
-/* line 15, ../sass/main.scss */
+/* line 16, ../sass/main.scss */
+.slider-controll {
+  width: 8%;
+  height: 17%;
+  position: absolute;
+  z-index: 1;
+}
+
+/* line 22, ../sass/main.scss */
+#sliderControllLeft {
+  top: 42.5%;
+  left: 3%;
+  background-image: url("./../img/icons/Black_Circle-Arrow_opacity.png");
+  background-size: cover;
+  background-position: 0% 0%;
+}
+
+/* line 29, ../sass/main.scss */
+#sliderControllRight {
+  top: 42.5%;
+  right: 3%;
+  background-image: url("./../img/icons/Black_Circle-Arrow_opacity.png");
+  background-size: cover;
+  background-position: 100% 0%;
+}
+
+/* line 37, ../sass/main.scss */
 .main-slider_view {
+  position: relative;
   width: 100%;
+  height: 400px;
   overflow: hidden;
 }
 
-/* line 19, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 .main-slider_img-box {
+  position: absolute;
   list-style: none;
   padding: 0;
   width: 4675px;
@@ -579,20 +609,20 @@ body {
   *zoom: 1;
 }
 
-/* line 25, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 .main-slider_img-list {
   float: left;
   width: 935px;
   position: relative;
 }
 
-/* line 30, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 .main-slider_img {
   width: 100%;
   height: 400px;
 }
 
-/* line 36, ../sass/main.scss */
+/* line 61, ../sass/main.scss */
 .main-slider_img-text {
   position: absolute;
   bottom: 0;
